@@ -3,8 +3,8 @@
 
 // We have an official verified Discord!
 // https://discord.gg/plexidev
-
-module.exports = require("./src/index.js");
-
+function DB(file) {
+module.exports = require("./src/index.js")(file);
+}
 // Documentation:
 // https://quickdb.js.org
