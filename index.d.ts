@@ -17,7 +17,10 @@ declare module 'quick.db' {
      * ```
      */
     const version: string;
-
+/**
+*@param fileName
+*/
+    function db(fileName: string): any;
     /**
      * This function fetches data from a key in the database.
      * @param key Any string as a key. Also allows for dot notation following the key.
