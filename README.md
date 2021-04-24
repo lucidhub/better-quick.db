@@ -1,5 +1,5 @@
 ## Quick.db
-
+(This is not my library, only added the DB function in order for you to be able to choose your own file.)
 **Documentation:** [quickdb.js.org](https://quickdb.js.org) <br>
 **Support:** [discord.gg/plexidev](https://discord.gg/plexidev) <br>
 **NPM:** [npmjs.com/quick.db](https://www.npmjs.com/package/quick.db)
