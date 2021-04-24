@@ -1,11 +1,11 @@
 module.exports = function(file) {
-// Require Database
+// Require Database With custom file support
     const Database = require("better-sqlite3");
     const util = require("util");
-    let db;
+    let db = file;
 
     // Create Database Under Conditions
-    if (!db) db = new Database(file || "./json.sqlite");
+    if (!db) db = new Database("./json.sqlite");
 
     // Declare Methods
     var methods = {
